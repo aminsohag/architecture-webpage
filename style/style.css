@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: blanchedalmond;
+}
+.nav-items{
+    display: flex;
+    margin-top: 33px;
+}
+.nav-title{
+    font-size:30px ;
+    font-weight: 700;
+    color: #131313;
+    margin-top: 33px;
+}
+.nav-item{
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #424242;
+    margin-left:20px ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 964px;
+    margin: 0 auto;
+}
+.banner-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team{
+    width: 100%;
+   
+}
+.banner-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+    margin-top: 68px;
+}
+.banner-des{
+    font-size: 10px;
+    color: #727272;
+    margin: 16px 191px 20px ;
+    text-align: center;
+}
+.banner-btn{
+    background-color: rgba(255, 144, 14, 1.00);
+    font-size: 14px;
+    padding: 12px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+}
+.ban-btn{
+    text-align: center;
+    margin-bottom: 30px;
+}
