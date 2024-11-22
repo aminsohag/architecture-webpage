@@ -45,20 +45,7 @@
     width: 100%;
     margin-bottom: 30px;
 }
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-}
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.team{
-    width: 100%;
-   
-}
+
 .banner-title{
     font-size: 42px;
     font-weight: 700;
@@ -83,4 +70,40 @@
 .ban-btn{
     text-align: center;
     margin-bottom: 30px;
+}
+/* second */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.team-img{
+    width: 100%;
+}
+.grid-text{
+    width: 360px;
+    margin: 0 41px 0 48px;
+}
+.grid-title{
+    font-size: 30px;
+    color: #727272;
+    margin-bottom: 16px;
+}
+.grid-des{
+    font-size: 10px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.fea{
+    color: #FF900E;
+    font-weight: 700;
 }
