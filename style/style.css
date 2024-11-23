@@ -133,11 +133,70 @@
     font-size: 30px;
     color: #131313;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin:27px 0 16px 0;
 }
 .feature-des{
     font-size: 10px;
     color: #727272;
-    width: 392px;
     margin-bottom: 20px;
  }
+ .feature-box{
+    width: 392px;
+ }
+ .feature-img{
+    width: 100%;
+ }
+ .some-text{
+    text-align: center;
+    width: 363px;
+    margin:  auto;
+ }
+ .some{
+    font-size: 30px;
+    font-weight: 700;
+    color: #131313;
+    margin: 87px 0 16px 0;
+ }
+ .some-des{
+    font-size: 10px;
+    color: #727272;
+ }
+ .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .icon-card{
+    padding: 28px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 6px;
+    margin-top: 70px;
+ }
+ .card-id{
+    color: #424242;
+    font-size: 30px;
+    margin: 6px 0 5px 0;
+ }
+ .card-title{
+    color: #727272;
+    font-size: 12px;
+ }
+
+.sponsor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 33px 0 87px 0;
+}
+.spon{
+    width: 111px;
+}
+/* */
+.footer{
+    background-color: #FFF4E7;
+    color:#424242;
+    font-size: 16px;
+    padding: 24px 270px;
+    border-radius: 8px;
+}
